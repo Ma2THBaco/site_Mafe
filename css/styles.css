@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ba0707;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+main {
+    background-image: url('../arriere_plan_paysage_africain.jpg'); /* Remplacez 'background.jpg' par le nom de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout le fond */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 50px; /* Ajoute un peu d'espace intérieur */
+    margin: 0px 0; /* Ajoute un peu d'espace extérieur */
+}
+article {
+    background-image: url('https://media.istockphoto.com/id/881048414/fr/vectoriel/arbre-au-coucher-du-soleil.jpg?s=612x612&w=0&k=20&c=UrZVI2kHc1jvojK8JhlqyeK8dkUR5akh6E0WzCciFfM='); /* URL de l'image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout le fond */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #35424a;
+    font-weight: bold;
+}
+h1 {
+    color: #c6bc05;
+}
+h2, h3 {
+    color: #990b0b;
+}
+
+p {
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #990b0b;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
